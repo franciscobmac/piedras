@@ -1,12 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
-
-body {
-    background-color: wheat;
-}
 
 header {
     border-bottom: 4px dotted black;
@@ -14,11 +10,6 @@ header {
     padding: 15px 30px;
 }
 
-
-.logo {
-    width: 450px;
-
-}
 
 nav ul li {
     list-style: none;
@@ -65,17 +56,21 @@ footer {
     background-color: aliceblue;
     color: black;
     text-align: center;
-    padding: 5px;
+    /* padding: 5px; */
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
 }
 
-.imgProducto {
-    display: block;
-    width: 100%;
-    height: auto;
+.imagenpiedra{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+
 
 iframe {
     display: block;
@@ -119,5 +114,22 @@ textarea {
 .parrafoProduccion{
     margin: 15px 15px;
     padding: 15px 15px;
+}
 
+.logo {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 5)
+}
+
+
+.botonera{
+    background-color: black;
+}
+
+.botonera a{
+    color: white;
 }
