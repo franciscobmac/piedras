@@ -49,7 +49,7 @@ footer {
 .contenedorProductos {
     margin: 20px;
     border: 3px solid black;
-    
+
 }
 
 .contenedorProductos p {
@@ -64,7 +64,7 @@ footer {
     align-items: center;
 }
 
-.imagenpiedra{
+.imagenpiedra {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -77,11 +77,11 @@ iframe {
     margin: auto;
 }
 
-form{
+form {
     margin-top: 5px;
 }
 
-label{
+label {
     display: block;
     font-weight: 800;
     margin-bottom: 5px;
@@ -111,7 +111,7 @@ textarea {
     cursor: pointer;
 }
 
-.parrafoProduccion{
+.parrafoProduccion {
     margin: 15px 15px;
     padding: 15px 15px;
 }
@@ -126,10 +126,10 @@ textarea {
 }
 
 
-.botonera{
+.botonera {
     background-color: black;
 }
 
-.botonera a{
+.botonera a {
     color: white;
 }
